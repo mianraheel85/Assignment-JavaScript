@@ -1,0 +1,18 @@
+Reduce-Exercise
+
+function extractValue(arr,key){
+  return arr.reduce(function(acc,next)
+  { acc.push(next[key]);
+    return acc;},[]);}
+   
+const arr= [{name: 'john'}, {name: 'Tim'}, {name:'Ben'}]
+
+=======================================
+
+function addKeyAndValue(arr, key, value){
+  return arr.reduce(function(acc,next,idx) { 
+    acc[idx][key] = value;
+   return acc; }, arr); }
+
+const arr = [{name: 'Mike'}, {name: 'Juan'}, {name: 'Sara'}]
+    
