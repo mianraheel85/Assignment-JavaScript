@@ -1,0 +1,11 @@
+
+
+Arrow Functions Shorthand
+
+
+const double = arr => arr.map(val => * 2);
+
+
+=============
+
+const squareAndFindEvens = numbers => numbers.map(val => val **2) .filter(square % 2 === 0)
