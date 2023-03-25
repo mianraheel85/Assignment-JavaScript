@@ -1,0 +1,21 @@
+Rest/Spread Operator
+
+
+let findMin= (...nums) => Math.min(...nums)
+============================
+
+let mergeObjects= (obj1, obj2) =>({...obj1, ...obj2})
+============================
+
+const doubleANdReturnArgs= (arr, ...args) => [...arr, ...args.map(v => v*2)]
+============================
+
+const newArr= (arr1, arr2) => {
+return [...arr1, ...arr2];
+}
+===========================
+
+const newObj= (obj1, obj2) => {
+return {...obj1, ...obj2};
+}
+========================
