@@ -1,0 +1,13 @@
+Maps and Sets Exercise
+
+Set(4) {1, 2, 3, 4}
+
+=====================
+
+'ref'
+
+======================
+Map(2) {Array(3) => true, Array(3) => false}
+
+======================
+let hasDuplicate=arr => new Set(arr).size !== arr.length
